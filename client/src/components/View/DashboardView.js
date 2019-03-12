@@ -12,9 +12,10 @@ import ChartStats from '../Charts/ChartStats';
 import PeersHealth from '../Lists/PeersHealth';
 import TimelineStream from '../Lists/TimelineStream';
 import OrgPieChart from '../Charts/OrgPieChart';
-import BlockLogo from '../../static/images/smart-b_block.png';
-import TransactionLogo from '../../static/images/smart-b_transaction.png';
-import ChaincodeLogo from '../../static/images/smart-b_chaincode.png';
+import BlockLogo from '../../static/images/block.png';
+import TransactionLogo from '../../static/images/transaction.png';
+import ChaincodeLogo from '../../static/images/chaincode.png';
+import NodeLogo from '../../static/images/node.png';
 
 import {
   blockListType,
@@ -235,7 +236,7 @@ export class DashboardView extends Component {
                   <Row>
                     <Col sm="4">
                       <Avatar
-                        src={ChaincodeLogo}
+                        src={NodeLogo}
                         className={`${classes.avatar} ${classes.node}`}
                       />
                     </Col>

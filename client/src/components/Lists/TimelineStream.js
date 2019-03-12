@@ -12,7 +12,7 @@ import { Badge } from 'reactstrap';
 import Timeago from 'react-timeago';
 import find from 'lodash/find';
 import BlockView from '../View/BlockView';
-import blockOpen from '../../static/images/blockOpen.png';
+import BlockLogo from '../../static/images/block.png';
 import { blockListType, notificationsType } from '../types';
 
 const styles = theme => {
@@ -103,7 +103,7 @@ export class TimelineStream extends Component {
                     }
                   >
                     <img
-                      src={blockOpen}
+                      src={BlockLogo}
                       alt="View Blocks"
                       className={classes.open}
                     />

@@ -15,7 +15,7 @@ const styles = theme => {
       margin: '2%'
     },
     footer: {
-      backgroundColor: dark ? '#5e558e' : '#e8e8e8',
+      backgroundColor: dark ? '#5e558e' : '#eeeeef',
       color: dark ? '#ffffff' : undefined,
       textAlign: 'center',
       position: 'fixed',
